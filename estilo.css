@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 8px;
+    font-family: 'Montserrat', sans-serif;
+}
+.cabecalho{
+    background-color: #750D37;
+    border-radius: 8px 8px 0px 0px;
+    margin-bottom: 12px;
+}
+
+.conteudo{
+    flex: 1;
+}
+
+.cabecalho_menu{
+    padding: 16px;
+    display: flex;
+    gap: 20px;
+}
+
+.cabecalho_menu_link{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+    margin-bottom: 10px;
+}
+
+img{
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+section{
+    width: 50%;
+}
+
+section h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+aside{
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 30%;
+    height: 300px;
+    text-align: start;
+    margin-left: 16px;
+}
+
+aside h3{
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+aside ul li{
+    list-style-type:circle;
+    margin-bottom: 8px;
+}
+
+.sobre{
+    width: 300px;
+}
+
+footer{
+    padding: 10px;
+    background-color: #750D37;
+    color: #ffffff;
+}
